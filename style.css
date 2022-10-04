@@ -1,16 +1,18 @@
 @media screen and (min-width: 768px) {
-h1 {
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Silkscreen', cursive;
+
+header h1 {
+    font-family: 'Press Start 2P', 'Silkscreen', cursive;
     position:absolute;
+    font-weight:400;
     color:white;
     margin: 0 auto;
-    font-size: 7em;
+    font-size: 4em;
 }
 
-h2 {
+header h2 {
 
     font-family: 'Silkscreen', cursive;
+    font-weight:400;
     color:white;
     margin: 0 auto;
     padding-top: 5em;
@@ -19,6 +21,7 @@ h3 {
 
   font-family: 'Silkscreen', cursive;
   font-size: 12px;
+  font-weight:400;
   color:white;
   margin: 0 auto;
   padding-top: 15em;
@@ -113,6 +116,13 @@ ul.skills {
 
     h1 {
        color:red;
+       font-family: 'Silkscreen', cursive;
     }
 
 }
+
+@font-face {
+    font-family: "Adamlh";
+    src: url(Silkscreen-Regular.ttf) format("cursive");
+  }
+  h1 { font-family: "Adamlh", cursive }
