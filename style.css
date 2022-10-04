@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px) {
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Silkscreen', cursive;
+    position:absolute;
+    color:white;
+    margin: 0 auto;
+    font-size: 7em;
+}
+
+h2 {
+
+    font-family: 'Silkscreen', cursive;
+    color:white;
+    margin: 0 auto;
+    padding-top: 5em;
+}
+h3 {
+
+  font-family: 'Silkscreen', cursive;
+  font-size: 12px;
+  color:white;
+  margin: 0 auto;
+  padding-top: 15em;
+  position: absolute;
+}
+
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform:rotate(90deg) scale(2.2);
+
+}
+
+.viewport-header {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+nav.socials {
+    position: relative;
+    text-align: center;
+    display: flex;
+    top: -300px;
+    align-items: center;
+    justify-content: center;
+}
+  
+ul > li {
+    display: inline-block;
+    color: white;
+}
+
+
+
+}
+nav {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+}
+
+li:hover {
+    color: #44b78b;
+}
+
+svg:hover {
+    color: #44b78b;
+}
+
+a {
+    color: inherit;
+}
+
+ul.skills {
+  font-family: 'Silkscreen', cursive;
+  font-size: 12px;
+  color:white;
+  margin: 0 auto;
+  padding-top: 25em;
+  padding-bottom: 2em;
+  position: absolute;
+}
+
+#remote {
+
+    position: relative;
+    text-align: center;
+    display: flex;
+    top: -300px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    opacity: 0.25;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+
+
+    h1 {
+       color:red;
+    }
+
+}
