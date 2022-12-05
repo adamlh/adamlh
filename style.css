@@ -109,6 +109,26 @@ ul.skills {
 }
 
 
+#projects {
+    display:block;
+   
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+
+}
+
+#projects div {
+    margin-top: 15px;
+}
+
+#projects .site {
+    list-style-type: none;
+    overflow: hidden;
+    width: 450px;
+    margin: 2em;
+
+}
 
 
 @media screen and (max-width: 767px) {
@@ -118,11 +138,13 @@ ul.skills {
        color:red;
        font-family: 'Silkscreen', cursive;
     }
+    #projects .site {
+        list-style-type: none;
+        overflow: hidden;
+        width: 150;
+        margin: 1em;
+    
+    }
 
 }
 
-@font-face {
-    font-family: "Adamlh";
-    src: url(Silkscreen-Regular.ttf) format("cursive");
-  }
-  h1 { font-family: "Adamlh", cursive }
