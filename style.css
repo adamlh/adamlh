@@ -118,11 +118,27 @@ ul.skills {
 
 #projects {
     display:block;
-   
-    list-style-type: none;
+    text-decoration: none;
     overflow: hidden;
     display: flex;
 
+}
+
+#projects h2 a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+div.site.card, {
+    background-color: rgba(197, 195, 195, 0.753);
+
+}
+a:hover div.site.card, #projects.h2, h2 .a:hover{
+    color:white;
+    background-color: rgba(197, 195, 195, 0.753);
+    transform: scale(1.05);
+    border-radius: 15px;
+    
 }
 
 #projects div {
