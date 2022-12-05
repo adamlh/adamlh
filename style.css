@@ -129,7 +129,7 @@ ul.skills {
     list-style-type: none;
 }
 
-div.site.card, {
+div.site.card {
     background-color: rgba(197, 195, 195, 0.753);
 
 }
@@ -157,17 +157,80 @@ a:hover div.site.card, #projects.h2, h2 .a:hover{
 @media screen and (max-width: 767px) {
 
 
+    body {
+        margin: 0 auto;
+        text-align: center;
+        background: url('pexels-neo-2653362.jpg');
+        color: whitesmoke;
+        height: 100%;
+    }
+
+
+ 
     h1 {
-       color:red;
+       color:whitesmoke;
        font-family: 'Silkscreen', cursive;
+       text-align: center;
     }
-    #projects .site {
-        list-style-type: none;
-        overflow: hidden;
-        width: 150;
-        margin: 1em;
-    
+
+    #projects {
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
     }
+
+
+    .site {
+        width: 85%;
+        margin: 0 auto;
+        margin-left: 10em;
+    }
+
+    .skills {
+        display:none;
+    }
+    video {
+        display: none;
+    }
+
+
+    .socials {
+        margin: 0 auto;
+        left: -50%;
+        height: 20px;
+
+    }
+
+    .socials ul {
+        margin: 0 auto;
+        text-align: center;
+
+    }
+    .socials ul li {
+        display: inline;
+        margin: 0 auto;
+        
+    }
+
+    #ul {
+        text-align: center;
+        text-justify: auto;
+    }
+
+    ul li {
+        text-align: center;
+        text-justify: auto;
+    }
+
+    ul.skills {
+        font-family: 'Silkscreen', cursive;
+        font-size: 12px;
+        color:white;
+        margin: 0 auto;
+
+        padding-bottom: 2em;
+        position: absolute;
+      }
 
 }
 
